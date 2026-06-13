@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="ComparadorPrincipal" T_Lut="10(0)">
+ <SubModule name="instancia_eq" Lut="3" T_Lut="3(3)"/>
+ <SubModule name="instancia_lt" Lut="4" T_Lut="4(4)"/>
+ <SubModule name="instancia_gt" Lut="3" T_Lut="3(3)"/>
+</Module>

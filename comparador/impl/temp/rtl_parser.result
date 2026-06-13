@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/comparador/src/principal.v",
+  "InstLine" : 1,
+  "InstName" : "ComparadorPrincipal",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/comparador/src/principal.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "ComparadorPrincipal",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/comparador/src/principal.v",
+    "InstLine" : 6,
+    "InstName" : "instancia_eq",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/comparador/src/igual.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "BloqueIgual"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/comparador/src/principal.v",
+    "InstLine" : 11,
+    "InstName" : "instancia_lt",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/comparador/src/menor.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "BloqueMenor"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/comparador/src/principal.v",
+    "InstLine" : 16,
+    "InstName" : "instancia_gt",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/comparador/src/mayor.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "BloqueMayor"
+   }
+  ]
+ }
+]
