@@ -1,0 +1,2386 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+  "InstLine" : 1,
+  "InstName" : "top_module",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top_module",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+    "InstLine" : 19,
+    "InstName" : "zero_gen",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "compuerta_XOR"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+    "InstLine" : 21,
+    "InstName" : "U_SUM",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador 4 bits.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sumador_4bits",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador 4 bits.v",
+      "InstLine" : 9,
+      "InstName" : "FA0",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 7,
+        "InstName" : "HA1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 8,
+        "InstName" : "HA2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador 4 bits.v",
+      "InstLine" : 10,
+      "InstName" : "FA1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 7,
+        "InstName" : "HA1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 8,
+        "InstName" : "HA2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador 4 bits.v",
+      "InstLine" : 11,
+      "InstName" : "FA2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 7,
+        "InstName" : "HA1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 8,
+        "InstName" : "HA2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador 4 bits.v",
+      "InstLine" : 12,
+      "InstName" : "FA3",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 7,
+        "InstName" : "HA1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 8,
+        "InstName" : "HA2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+    "InstLine" : 26,
+    "InstName" : "U_SUB",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador 4 bits.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "restador_4bits",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador 4 bits.v",
+      "InstLine" : 9,
+      "InstName" : "FS0",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_subtractor",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+        "InstLine" : 7,
+        "InstName" : "HS1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_subtractor",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 8,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 11,
+          "InstName" : "n1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 14,
+          "ModuleName" : "compuerta_NOT"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 12,
+          "InstName" : "a1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+        "InstLine" : 8,
+        "InstName" : "HS2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_subtractor",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 8,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 11,
+          "InstName" : "n1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 14,
+          "ModuleName" : "compuerta_NOT"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 12,
+          "InstName" : "a1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador 4 bits.v",
+      "InstLine" : 10,
+      "InstName" : "FS1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_subtractor",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+        "InstLine" : 7,
+        "InstName" : "HS1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_subtractor",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 8,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 11,
+          "InstName" : "n1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 14,
+          "ModuleName" : "compuerta_NOT"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 12,
+          "InstName" : "a1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+        "InstLine" : 8,
+        "InstName" : "HS2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_subtractor",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 8,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 11,
+          "InstName" : "n1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 14,
+          "ModuleName" : "compuerta_NOT"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 12,
+          "InstName" : "a1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador 4 bits.v",
+      "InstLine" : 11,
+      "InstName" : "FS2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_subtractor",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+        "InstLine" : 7,
+        "InstName" : "HS1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_subtractor",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 8,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 11,
+          "InstName" : "n1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 14,
+          "ModuleName" : "compuerta_NOT"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 12,
+          "InstName" : "a1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+        "InstLine" : 8,
+        "InstName" : "HS2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_subtractor",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 8,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 11,
+          "InstName" : "n1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 14,
+          "ModuleName" : "compuerta_NOT"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 12,
+          "InstName" : "a1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador 4 bits.v",
+      "InstLine" : 12,
+      "InstName" : "FS3",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_subtractor",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+        "InstLine" : 7,
+        "InstName" : "HS1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_subtractor",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 8,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 11,
+          "InstName" : "n1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 14,
+          "ModuleName" : "compuerta_NOT"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 12,
+          "InstName" : "a1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+        "InstLine" : 8,
+        "InstName" : "HS2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_subtractor",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 8,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 11,
+          "InstName" : "n1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 14,
+          "ModuleName" : "compuerta_NOT"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+          "InstLine" : 12,
+          "InstName" : "a1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+    "InstLine" : 31,
+    "InstName" : "U_MULT",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "multiplicador_4bits",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 20,
+      "InstName" : "a00",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 21,
+      "InstName" : "a10",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 22,
+      "InstName" : "a20",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 23,
+      "InstName" : "a30",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 25,
+      "InstName" : "a01",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 26,
+      "InstName" : "a11",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 27,
+      "InstName" : "a21",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 28,
+      "InstName" : "a31",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 30,
+      "InstName" : "a02",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 31,
+      "InstName" : "a12",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 32,
+      "InstName" : "a22",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 33,
+      "InstName" : "a32",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 35,
+      "InstName" : "a03",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 36,
+      "InstName" : "a13",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 37,
+      "InstName" : "a23",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 38,
+      "InstName" : "a33",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 40,
+      "InstName" : "buffer_p0",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 42,
+      "InstName" : "HA1_0",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "half_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "InstLine" : 6,
+        "InstName" : "g1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "compuerta_XOR"
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "InstLine" : 7,
+        "InstName" : "g2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "compuerta_AND"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 47,
+      "InstName" : "FA1_1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 7,
+        "InstName" : "HA1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 8,
+        "InstName" : "HA2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 52,
+      "InstName" : "FA1_2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 7,
+        "InstName" : "HA1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 8,
+        "InstName" : "HA2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 57,
+      "InstName" : "HA1_3",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "half_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "InstLine" : 6,
+        "InstName" : "g1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "compuerta_XOR"
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "InstLine" : 7,
+        "InstName" : "g2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "compuerta_AND"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 62,
+      "InstName" : "HA2_0",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "half_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "InstLine" : 6,
+        "InstName" : "g1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "compuerta_XOR"
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "InstLine" : 7,
+        "InstName" : "g2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "compuerta_AND"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 67,
+      "InstName" : "FA2_1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 7,
+        "InstName" : "HA1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 8,
+        "InstName" : "HA2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 72,
+      "InstName" : "FA2_2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 7,
+        "InstName" : "HA1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 8,
+        "InstName" : "HA2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 77,
+      "InstName" : "FA2_3",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 7,
+        "InstName" : "HA1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 8,
+        "InstName" : "HA2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 82,
+      "InstName" : "HA3_0",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "half_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "InstLine" : 6,
+        "InstName" : "g1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "compuerta_XOR"
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "InstLine" : 7,
+        "InstName" : "g2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "compuerta_AND"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 87,
+      "InstName" : "FA3_1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 7,
+        "InstName" : "HA1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 8,
+        "InstName" : "HA2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 92,
+      "InstName" : "FA3_2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 7,
+        "InstName" : "HA1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 8,
+        "InstName" : "HA2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+      "InstLine" : 97,
+      "InstName" : "FA3_3",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "full_adder",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 7,
+        "InstName" : "HA1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 8,
+        "InstName" : "HA2",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "half_adder",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 6,
+          "InstName" : "g1",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 10,
+          "ModuleName" : "compuerta_XOR"
+         },
+         {
+          "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+          "InstLine" : 7,
+          "InstName" : "g2",
+          "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "compuerta_AND"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+        "InstLine" : 10,
+        "InstName" : "OR1",
+        "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+        "ModuleLine" : 6,
+        "ModuleName" : "compuerta_OR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+    "InstLine" : 36,
+    "InstName" : "Mux0",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux_4to1",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 10,
+      "InstName" : "inv1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 11,
+      "InstName" : "inv2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 14,
+      "InstName" : "and0_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 15,
+      "InstName" : "and0_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 18,
+      "InstName" : "and1_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 19,
+      "InstName" : "and1_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 22,
+      "InstName" : "and2_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 23,
+      "InstName" : "and2_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 26,
+      "InstName" : "and3_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 27,
+      "InstName" : "and3_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 29,
+      "InstName" : "or1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 30,
+      "InstName" : "or2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 31,
+      "InstName" : "or_final",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+    "InstLine" : 41,
+    "InstName" : "Mux1",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux_4to1",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 10,
+      "InstName" : "inv1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 11,
+      "InstName" : "inv2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 14,
+      "InstName" : "and0_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 15,
+      "InstName" : "and0_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 18,
+      "InstName" : "and1_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 19,
+      "InstName" : "and1_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 22,
+      "InstName" : "and2_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 23,
+      "InstName" : "and2_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 26,
+      "InstName" : "and3_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 27,
+      "InstName" : "and3_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 29,
+      "InstName" : "or1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 30,
+      "InstName" : "or2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 31,
+      "InstName" : "or_final",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+    "InstLine" : 46,
+    "InstName" : "Mux2",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux_4to1",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 10,
+      "InstName" : "inv1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 11,
+      "InstName" : "inv2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 14,
+      "InstName" : "and0_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 15,
+      "InstName" : "and0_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 18,
+      "InstName" : "and1_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 19,
+      "InstName" : "and1_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 22,
+      "InstName" : "and2_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 23,
+      "InstName" : "and2_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 26,
+      "InstName" : "and3_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 27,
+      "InstName" : "and3_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 29,
+      "InstName" : "or1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 30,
+      "InstName" : "or2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 31,
+      "InstName" : "or_final",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+    "InstLine" : 51,
+    "InstName" : "Mux3",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux_4to1",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 10,
+      "InstName" : "inv1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 11,
+      "InstName" : "inv2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 14,
+      "InstName" : "and0_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 15,
+      "InstName" : "and0_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 18,
+      "InstName" : "and1_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 19,
+      "InstName" : "and1_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 22,
+      "InstName" : "and2_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 23,
+      "InstName" : "and2_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 26,
+      "InstName" : "and3_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 27,
+      "InstName" : "and3_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 29,
+      "InstName" : "or1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 30,
+      "InstName" : "or2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 31,
+      "InstName" : "or_final",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+    "InstLine" : 56,
+    "InstName" : "Mux4",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux_4to1",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 10,
+      "InstName" : "inv1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 11,
+      "InstName" : "inv2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 14,
+      "InstName" : "and0_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 15,
+      "InstName" : "and0_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 18,
+      "InstName" : "and1_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 19,
+      "InstName" : "and1_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 22,
+      "InstName" : "and2_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 23,
+      "InstName" : "and2_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 26,
+      "InstName" : "and3_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 27,
+      "InstName" : "and3_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 29,
+      "InstName" : "or1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 30,
+      "InstName" : "or2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 31,
+      "InstName" : "or_final",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+    "InstLine" : 61,
+    "InstName" : "Mux5",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux_4to1",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 10,
+      "InstName" : "inv1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 11,
+      "InstName" : "inv2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 14,
+      "InstName" : "and0_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 15,
+      "InstName" : "and0_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 18,
+      "InstName" : "and1_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 19,
+      "InstName" : "and1_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 22,
+      "InstName" : "and2_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 23,
+      "InstName" : "and2_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 26,
+      "InstName" : "and3_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 27,
+      "InstName" : "and3_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 29,
+      "InstName" : "or1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 30,
+      "InstName" : "or2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 31,
+      "InstName" : "or_final",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+    "InstLine" : 66,
+    "InstName" : "Mux6",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux_4to1",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 10,
+      "InstName" : "inv1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 11,
+      "InstName" : "inv2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 14,
+      "InstName" : "and0_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 15,
+      "InstName" : "and0_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 18,
+      "InstName" : "and1_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 19,
+      "InstName" : "and1_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 22,
+      "InstName" : "and2_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 23,
+      "InstName" : "and2_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 26,
+      "InstName" : "and3_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 27,
+      "InstName" : "and3_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 29,
+      "InstName" : "or1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 30,
+      "InstName" : "or2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 31,
+      "InstName" : "or_final",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+    "InstLine" : 71,
+    "InstName" : "Mux7",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "mux_4to1",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 10,
+      "InstName" : "inv1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 11,
+      "InstName" : "inv2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "compuerta_NOT"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 14,
+      "InstName" : "and0_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 15,
+      "InstName" : "and0_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 18,
+      "InstName" : "and1_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 19,
+      "InstName" : "and1_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 22,
+      "InstName" : "and2_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 23,
+      "InstName" : "and2_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 26,
+      "InstName" : "and3_a",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 27,
+      "InstName" : "and3_b",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "compuerta_AND"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 29,
+      "InstName" : "or1",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 30,
+      "InstName" : "or2",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     },
+     {
+      "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+      "InstLine" : 31,
+      "InstName" : "or_final",
+      "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "compuerta_OR"
+     }
+    ]
+   }
+  ]
+ }
+]

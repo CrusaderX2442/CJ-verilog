@@ -1,0 +1,53 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/lib.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio restador.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/medio sumador.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplexor.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/multiplicador.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/pines.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador 4 bits.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/restador.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador 4 bits.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/src/sumador.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado restador multiplicador y multiplexor/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

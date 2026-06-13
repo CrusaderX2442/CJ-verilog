@@ -1,0 +1,20 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NC1/I0">gw5a25a-002</Device>
+    <FileList>
+        <File path="src/lib.v" type="file.verilog" enable="1"/>
+        <File path="src/medio restador.v" type="file.verilog" enable="1"/>
+        <File path="src/medio sumador.v" type="file.verilog" enable="1"/>
+        <File path="src/multiplexor.v" type="file.verilog" enable="1"/>
+        <File path="src/multiplicador.v" type="file.verilog" enable="1"/>
+        <File path="src/pines.v" type="file.verilog" enable="1"/>
+        <File path="src/restador 4 bits.v" type="file.verilog" enable="1"/>
+        <File path="src/restador.v" type="file.verilog" enable="1"/>
+        <File path="src/sumador 4 bits.v" type="file.verilog" enable="1"/>
+        <File path="src/sumador.v" type="file.verilog" enable="1"/>
+        <File path="src/sumado restador multiplicador y multiplexor.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

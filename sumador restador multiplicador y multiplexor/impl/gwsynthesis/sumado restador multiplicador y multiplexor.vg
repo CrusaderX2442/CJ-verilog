@@ -1,0 +1,1188 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.12.01 (64-bit)"
+//Mon Feb 23 02:37:15 2026
+
+//Source file index table:
+//file0 "\C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado\ restador\ multiplicador\ y\ multiplexor/src/lib.v"
+//file1 "\C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado\ restador\ multiplicador\ y\ multiplexor/src/medio\ restador.v"
+//file2 "\C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado\ restador\ multiplicador\ y\ multiplexor/src/medio\ sumador.v"
+//file3 "\C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado\ restador\ multiplicador\ y\ multiplexor/src/multiplexor.v"
+//file4 "\C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado\ restador\ multiplicador\ y\ multiplexor/src/multiplicador.v"
+//file5 "\C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado\ restador\ multiplicador\ y\ multiplexor/src/pines.v"
+//file6 "\C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado\ restador\ multiplicador\ y\ multiplexor/src/restador\ 4\ bits.v"
+//file7 "\C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado\ restador\ multiplicador\ y\ multiplexor/src/restador.v"
+//file8 "\C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado\ restador\ multiplicador\ y\ multiplexor/src/sumador\ 4\ bits.v"
+//file9 "\C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sumado\ restador\ multiplicador\ y\ multiplexor/src/sumador.v"
+`timescale 100 ps/100 ps
+module compuerta_OR (
+  Sel_d,
+  A_d,
+  B_d,
+  LEDs_d
+)
+;
+input [1:0] Sel_d;
+input [0:0] A_d;
+input [0:0] B_d;
+output [0:0] LEDs_d;
+wire VCC;
+wire GND;
+  LUT4 LEDs_d_0_s (
+    .F(LEDs_d[0]),
+    .I0(Sel_d[0]),
+    .I1(Sel_d[1]),
+    .I2(A_d[0]),
+    .I3(B_d[0]) 
+);
+defparam LEDs_d_0_s.INIT=16'h4330;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* compuerta_OR */
+module mux_4to1 (
+  Sel_d,
+  A_d,
+  B_d,
+  LEDs_d
+)
+;
+input [1:0] Sel_d;
+input [0:0] A_d;
+input [0:0] B_d;
+output [0:0] LEDs_d;
+wire VCC;
+wire GND;
+  compuerta_OR or_final (
+    .Sel_d(Sel_d[1:0]),
+    .A_d(A_d[0]),
+    .B_d(B_d[0]),
+    .LEDs_d(LEDs_d[0])
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* mux_4to1 */
+module compuerta_OR_0 (
+  Sel_d,
+  A_d,
+  B_d,
+  LEDs_d
+)
+;
+input [1:0] Sel_d;
+input [1:0] A_d;
+input [1:0] B_d;
+output [1:1] LEDs_d;
+wire LEDs_d_1_3;
+wire LEDs_d_1_4;
+wire LEDs_d_1_5;
+wire VCC;
+wire GND;
+  LUT4 LEDs_d_1_s (
+    .F(LEDs_d[1]),
+    .I0(Sel_d[0]),
+    .I1(LEDs_d_1_3),
+    .I2(LEDs_d_1_4),
+    .I3(Sel_d[1]) 
+);
+defparam LEDs_d_1_s.INIT=16'h110F;
+  LUT4 LEDs_d_1_s0 (
+    .F(LEDs_d_1_3),
+    .I0(A_d[0]),
+    .I1(B_d[1]),
+    .I2(B_d[0]),
+    .I3(A_d[1]) 
+);
+defparam LEDs_d_1_s0.INIT=16'h8777;
+  LUT3 LEDs_d_1_s1 (
+    .F(LEDs_d_1_4),
+    .I0(A_d[1]),
+    .I1(B_d[1]),
+    .I2(LEDs_d_1_5) 
+);
+defparam LEDs_d_1_s1.INIT=8'h69;
+  LUT3 LEDs_d_1_s2 (
+    .F(LEDs_d_1_5),
+    .I0(A_d[0]),
+    .I1(Sel_d[0]),
+    .I2(B_d[0]) 
+);
+defparam LEDs_d_1_s2.INIT=8'h60;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* compuerta_OR_0 */
+module mux_4to1_0 (
+  Sel_d,
+  A_d,
+  B_d,
+  LEDs_d
+)
+;
+input [1:0] Sel_d;
+input [1:0] A_d;
+input [1:0] B_d;
+output [1:1] LEDs_d;
+wire VCC;
+wire GND;
+  compuerta_OR_0 or_final (
+    .Sel_d(Sel_d[1:0]),
+    .A_d(A_d[1:0]),
+    .B_d(B_d[1:0]),
+    .LEDs_d(LEDs_d[1])
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* mux_4to1_0 */
+module compuerta_OR_1 (
+  Sel_d,
+  B_d,
+  A_d,
+  LEDs_d_2_5,
+  LEDs_d_2_6,
+  LEDs_d_2_7,
+  LEDs_d_2_8,
+  LEDs_d
+)
+;
+input [1:0] Sel_d;
+input [2:0] B_d;
+input [2:0] A_d;
+output LEDs_d_2_5;
+output LEDs_d_2_6;
+output LEDs_d_2_7;
+output LEDs_d_2_8;
+output [2:2] LEDs_d;
+wire LEDs_d_2_3;
+wire LEDs_d_2_4;
+wire LEDs_d_2_9;
+wire VCC;
+wire GND;
+  LUT4 LEDs_d_2_s (
+    .F(LEDs_d[2]),
+    .I0(Sel_d[0]),
+    .I1(LEDs_d_2_3),
+    .I2(LEDs_d_2_4),
+    .I3(Sel_d[1]) 
+);
+defparam LEDs_d_2_s.INIT=16'h11F0;
+  LUT4 LEDs_d_2_s0 (
+    .F(LEDs_d_2_3),
+    .I0(B_d[0]),
+    .I1(A_d[2]),
+    .I2(LEDs_d_2_5),
+    .I3(LEDs_d_2_6) 
+);
+defparam LEDs_d_2_s0.INIT=16'h7887;
+  LUT4 LEDs_d_2_s1 (
+    .F(LEDs_d_2_4),
+    .I0(LEDs_d_2_7),
+    .I1(LEDs_d_2_8),
+    .I2(Sel_d[0]),
+    .I3(LEDs_d_2_9) 
+);
+defparam LEDs_d_2_s1.INIT=16'hAC53;
+  LUT4 LEDs_d_2_s2 (
+    .F(LEDs_d_2_5),
+    .I0(B_d[0]),
+    .I1(A_d[0]),
+    .I2(A_d[1]),
+    .I3(B_d[1]) 
+);
+defparam LEDs_d_2_s2.INIT=16'h7000;
+  LUT2 LEDs_d_2_s3 (
+    .F(LEDs_d_2_6),
+    .I0(A_d[0]),
+    .I1(B_d[2]) 
+);
+defparam LEDs_d_2_s3.INIT=4'h8;
+  LUT4 LEDs_d_2_s4 (
+    .F(LEDs_d_2_7),
+    .I0(A_d[1]),
+    .I1(A_d[0]),
+    .I2(B_d[1]),
+    .I3(B_d[0]) 
+);
+defparam LEDs_d_2_s4.INIT=16'h8EAF;
+  LUT4 LEDs_d_2_s5 (
+    .F(LEDs_d_2_8),
+    .I0(A_d[1]),
+    .I1(B_d[1]),
+    .I2(A_d[0]),
+    .I3(B_d[0]) 
+);
+defparam LEDs_d_2_s5.INIT=16'h1777;
+  LUT2 LEDs_d_2_s6 (
+    .F(LEDs_d_2_9),
+    .I0(A_d[2]),
+    .I1(B_d[2]) 
+);
+defparam LEDs_d_2_s6.INIT=4'h6;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* compuerta_OR_1 */
+module mux_4to1_1 (
+  Sel_d,
+  B_d,
+  A_d,
+  LEDs_d_2_5,
+  LEDs_d_2_6,
+  LEDs_d_2_7,
+  LEDs_d_2_8,
+  LEDs_d
+)
+;
+input [1:0] Sel_d;
+input [2:0] B_d;
+input [2:0] A_d;
+output LEDs_d_2_5;
+output LEDs_d_2_6;
+output LEDs_d_2_7;
+output LEDs_d_2_8;
+output [2:2] LEDs_d;
+wire VCC;
+wire GND;
+  compuerta_OR_1 or_final (
+    .Sel_d(Sel_d[1:0]),
+    .B_d(B_d[2:0]),
+    .A_d(A_d[2:0]),
+    .LEDs_d_2_5(LEDs_d_2_5),
+    .LEDs_d_2_6(LEDs_d_2_6),
+    .LEDs_d_2_7(LEDs_d_2_7),
+    .LEDs_d_2_8(LEDs_d_2_8),
+    .LEDs_d(LEDs_d[2])
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* mux_4to1_1 */
+module compuerta_OR_2 (
+  LEDs_d_2_5,
+  LEDs_d_2_6,
+  LEDs_d_2_7,
+  LEDs_d_2_8,
+  Sel_d,
+  A_d,
+  B_d,
+  LEDs_d_3_5,
+  LEDs_d_3_6,
+  LEDs_d_3_7,
+  LEDs_d_3_8,
+  LEDs_d
+)
+;
+input LEDs_d_2_5;
+input LEDs_d_2_6;
+input LEDs_d_2_7;
+input LEDs_d_2_8;
+input [1:0] Sel_d;
+input [3:0] A_d;
+input [3:0] B_d;
+output LEDs_d_3_5;
+output LEDs_d_3_6;
+output LEDs_d_3_7;
+output LEDs_d_3_8;
+output [3:3] LEDs_d;
+wire LEDs_d_3_3;
+wire LEDs_d_3_4;
+wire LEDs_d_3_9;
+wire LEDs_d_3_10;
+wire LEDs_d_3_11;
+wire LEDs_d_3_12;
+wire LEDs_d_3_13;
+wire VCC;
+wire GND;
+  LUT4 LEDs_d_3_s (
+    .F(LEDs_d[3]),
+    .I0(Sel_d[0]),
+    .I1(LEDs_d_3_3),
+    .I2(LEDs_d_3_4),
+    .I3(Sel_d[1]) 
+);
+defparam LEDs_d_3_s.INIT=16'h44F0;
+  LUT4 LEDs_d_3_s0 (
+    .F(LEDs_d_3_3),
+    .I0(A_d[0]),
+    .I1(B_d[3]),
+    .I2(LEDs_d_3_5),
+    .I3(LEDs_d_3_6) 
+);
+defparam LEDs_d_3_s0.INIT=16'h8778;
+  LUT4 LEDs_d_3_s1 (
+    .F(LEDs_d_3_4),
+    .I0(Sel_d[0]),
+    .I1(LEDs_d_3_7),
+    .I2(LEDs_d_3_8),
+    .I3(LEDs_d_3_9) 
+);
+defparam LEDs_d_3_s1.INIT=16'h0DF2;
+  LUT4 LEDs_d_3_s2 (
+    .F(LEDs_d_3_5),
+    .I0(A_d[2]),
+    .I1(B_d[0]),
+    .I2(LEDs_d_2_5),
+    .I3(LEDs_d_2_6) 
+);
+defparam LEDs_d_3_s2.INIT=16'hF800;
+  LUT4 LEDs_d_3_s3 (
+    .F(LEDs_d_3_6),
+    .I0(LEDs_d_3_10),
+    .I1(LEDs_d_3_11),
+    .I2(LEDs_d_3_12),
+    .I3(LEDs_d_3_13) 
+);
+defparam LEDs_d_3_s3.INIT=16'h7887;
+  LUT3 LEDs_d_3_s4 (
+    .F(LEDs_d_3_7),
+    .I0(A_d[2]),
+    .I1(B_d[2]),
+    .I2(LEDs_d_2_7) 
+);
+defparam LEDs_d_3_s4.INIT=8'hB2;
+  LUT4 LEDs_d_3_s5 (
+    .F(LEDs_d_3_8),
+    .I0(A_d[2]),
+    .I1(B_d[2]),
+    .I2(LEDs_d_2_8),
+    .I3(Sel_d[0]) 
+);
+defparam LEDs_d_3_s5.INIT=16'h008E;
+  LUT2 LEDs_d_3_s6 (
+    .F(LEDs_d_3_9),
+    .I0(A_d[3]),
+    .I1(B_d[3]) 
+);
+defparam LEDs_d_3_s6.INIT=4'h6;
+  LUT2 LEDs_d_3_s7 (
+    .F(LEDs_d_3_10),
+    .I0(A_d[1]),
+    .I1(B_d[1]) 
+);
+defparam LEDs_d_3_s7.INIT=4'h8;
+  LUT3 LEDs_d_3_s8 (
+    .F(LEDs_d_3_11),
+    .I0(A_d[2]),
+    .I1(A_d[0]),
+    .I2(B_d[0]) 
+);
+defparam LEDs_d_3_s8.INIT=8'hE0;
+  LUT2 LEDs_d_3_s9 (
+    .F(LEDs_d_3_12),
+    .I0(A_d[1]),
+    .I1(B_d[2]) 
+);
+defparam LEDs_d_3_s9.INIT=4'h8;
+  LUT4 LEDs_d_3_s10 (
+    .F(LEDs_d_3_13),
+    .I0(B_d[0]),
+    .I1(A_d[3]),
+    .I2(B_d[1]),
+    .I3(A_d[2]) 
+);
+defparam LEDs_d_3_s10.INIT=16'h8777;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* compuerta_OR_2 */
+module mux_4to1_2 (
+  LEDs_d_2_5,
+  LEDs_d_2_6,
+  LEDs_d_2_7,
+  LEDs_d_2_8,
+  Sel_d,
+  A_d,
+  B_d,
+  LEDs_d_3_5,
+  LEDs_d_3_6,
+  LEDs_d_3_7,
+  LEDs_d_3_8,
+  LEDs_d
+)
+;
+input LEDs_d_2_5;
+input LEDs_d_2_6;
+input LEDs_d_2_7;
+input LEDs_d_2_8;
+input [1:0] Sel_d;
+input [3:0] A_d;
+input [3:0] B_d;
+output LEDs_d_3_5;
+output LEDs_d_3_6;
+output LEDs_d_3_7;
+output LEDs_d_3_8;
+output [3:3] LEDs_d;
+wire VCC;
+wire GND;
+  compuerta_OR_2 or_final (
+    .LEDs_d_2_5(LEDs_d_2_5),
+    .LEDs_d_2_6(LEDs_d_2_6),
+    .LEDs_d_2_7(LEDs_d_2_7),
+    .LEDs_d_2_8(LEDs_d_2_8),
+    .Sel_d(Sel_d[1:0]),
+    .A_d(A_d[3:0]),
+    .B_d(B_d[3:0]),
+    .LEDs_d_3_5(LEDs_d_3_5),
+    .LEDs_d_3_6(LEDs_d_3_6),
+    .LEDs_d_3_7(LEDs_d_3_7),
+    .LEDs_d_3_8(LEDs_d_3_8),
+    .LEDs_d(LEDs_d[3])
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* mux_4to1_2 */
+module compuerta_OR_3 (
+  LEDs_d_3_5,
+  LEDs_d_3_6,
+  a2_7,
+  a2_8,
+  LEDs_d_3_7,
+  LEDs_d_3_8,
+  Sel_d,
+  A_d,
+  B_d,
+  LEDs_d_4_5,
+  LEDs_d_4_7,
+  LEDs_d_4_8,
+  LEDs_d_4_13,
+  LEDs_d
+)
+;
+input LEDs_d_3_5;
+input LEDs_d_3_6;
+input a2_7;
+input a2_8;
+input LEDs_d_3_7;
+input LEDs_d_3_8;
+input [1:0] Sel_d;
+input [3:0] A_d;
+input [3:2] B_d;
+output LEDs_d_4_5;
+output LEDs_d_4_7;
+output LEDs_d_4_8;
+output LEDs_d_4_13;
+output [4:4] LEDs_d;
+wire LEDs_d_4_3;
+wire LEDs_d_4_9;
+wire LEDs_d_4_11;
+wire VCC;
+wire GND;
+  LUT4 LEDs_d_4_s (
+    .F(LEDs_d[4]),
+    .I0(Sel_d[0]),
+    .I1(LEDs_d_4_3),
+    .I2(LEDs_d_4_11),
+    .I3(Sel_d[1]) 
+);
+defparam LEDs_d_4_s.INIT=16'h440F;
+  LUT4 LEDs_d_4_s0 (
+    .F(LEDs_d_4_3),
+    .I0(LEDs_d_4_5),
+    .I1(LEDs_d_4_13),
+    .I2(LEDs_d_4_7),
+    .I3(LEDs_d_4_8) 
+);
+defparam LEDs_d_4_s0.INIT=16'h6996;
+  LUT4 LEDs_d_4_s2 (
+    .F(LEDs_d_4_5),
+    .I0(LEDs_d_3_5),
+    .I1(LEDs_d_3_6),
+    .I2(A_d[0]),
+    .I3(B_d[3]) 
+);
+defparam LEDs_d_4_s2.INIT=16'h6000;
+  LUT4 LEDs_d_4_s4 (
+    .F(LEDs_d_4_7),
+    .I0(A_d[2]),
+    .I1(B_d[2]),
+    .I2(a2_7),
+    .I3(a2_8) 
+);
+defparam LEDs_d_4_s4.INIT=16'h7887;
+  LUT2 LEDs_d_4_s5 (
+    .F(LEDs_d_4_8),
+    .I0(A_d[1]),
+    .I1(B_d[3]) 
+);
+defparam LEDs_d_4_s5.INIT=4'h8;
+  LUT4 LEDs_d_4_s6 (
+    .F(LEDs_d_4_9),
+    .I0(LEDs_d_3_7),
+    .I1(A_d[3]),
+    .I2(B_d[3]),
+    .I3(Sel_d[0]) 
+);
+defparam LEDs_d_4_s6.INIT=16'h71C0;
+  LUT4 LEDs_d_4_s7 (
+    .F(LEDs_d_4_11),
+    .I0(A_d[3]),
+    .I1(B_d[3]),
+    .I2(LEDs_d_3_8),
+    .I3(LEDs_d_4_9) 
+);
+defparam LEDs_d_4_s7.INIT=16'h009F;
+  LUT4 LEDs_d_4_s8 (
+    .F(LEDs_d_4_13),
+    .I0(LEDs_d_3_5),
+    .I1(A_d[1]),
+    .I2(B_d[2]),
+    .I3(LEDs_d_3_6) 
+);
+defparam LEDs_d_4_s8.INIT=16'h553F;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* compuerta_OR_3 */
+module mux_4to1_3 (
+  LEDs_d_3_5,
+  LEDs_d_3_6,
+  a2_7,
+  a2_8,
+  LEDs_d_3_7,
+  LEDs_d_3_8,
+  Sel_d,
+  A_d,
+  B_d,
+  LEDs_d_4_5,
+  LEDs_d_4_7,
+  LEDs_d_4_8,
+  LEDs_d_4_13,
+  LEDs_d
+)
+;
+input LEDs_d_3_5;
+input LEDs_d_3_6;
+input a2_7;
+input a2_8;
+input LEDs_d_3_7;
+input LEDs_d_3_8;
+input [1:0] Sel_d;
+input [3:0] A_d;
+input [3:2] B_d;
+output LEDs_d_4_5;
+output LEDs_d_4_7;
+output LEDs_d_4_8;
+output LEDs_d_4_13;
+output [4:4] LEDs_d;
+wire VCC;
+wire GND;
+  compuerta_OR_3 or_final (
+    .LEDs_d_3_5(LEDs_d_3_5),
+    .LEDs_d_3_6(LEDs_d_3_6),
+    .a2_7(a2_7),
+    .a2_8(a2_8),
+    .LEDs_d_3_7(LEDs_d_3_7),
+    .LEDs_d_3_8(LEDs_d_3_8),
+    .Sel_d(Sel_d[1:0]),
+    .A_d(A_d[3:0]),
+    .B_d(B_d[3:2]),
+    .LEDs_d_4_5(LEDs_d_4_5),
+    .LEDs_d_4_7(LEDs_d_4_7),
+    .LEDs_d_4_8(LEDs_d_4_8),
+    .LEDs_d_4_13(LEDs_d_4_13),
+    .LEDs_d(LEDs_d[4])
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* mux_4to1_3 */
+module compuerta_AND (
+  LEDs_d_4_13,
+  LEDs_d_4_7,
+  LEDs_d_4_5,
+  LEDs_d_4_8,
+  Sel_d,
+  B_d,
+  A_d,
+  a2,
+  a2_3,
+  a2_5,
+  a2_6,
+  a2_7,
+  a2_8,
+  a2_9,
+  a2_10
+)
+;
+input LEDs_d_4_13;
+input LEDs_d_4_7;
+input LEDs_d_4_5;
+input LEDs_d_4_8;
+input [1:0] Sel_d;
+input [3:0] B_d;
+input [3:0] A_d;
+output a2;
+output a2_3;
+output a2_5;
+output a2_6;
+output a2_7;
+output a2_8;
+output a2_9;
+output a2_10;
+wire a2_11;
+wire a2_13;
+wire VCC;
+wire GND;
+  LUT4 a2_s (
+    .F(a2),
+    .I0(a2_3),
+    .I1(a2_13),
+    .I2(a2_5),
+    .I3(a2_6) 
+);
+defparam a2_s.INIT=16'h6900;
+  LUT4 a2_s0 (
+    .F(a2_3),
+    .I0(LEDs_d_4_13),
+    .I1(a2_7),
+    .I2(a2_8),
+    .I3(LEDs_d_4_7) 
+);
+defparam a2_s0.INIT=16'hC3AA;
+  LUT4 a2_s2 (
+    .F(a2_5),
+    .I0(LEDs_d_4_5),
+    .I1(LEDs_d_4_8),
+    .I2(LEDs_d_4_7),
+    .I3(LEDs_d_4_13) 
+);
+defparam a2_s2.INIT=16'h8EE8;
+  LUT2 a2_s3 (
+    .F(a2_6),
+    .I0(Sel_d[0]),
+    .I1(Sel_d[1]) 
+);
+defparam a2_s3.INIT=4'h4;
+  LUT3 a2_s4 (
+    .F(a2_7),
+    .I0(a2_11),
+    .I1(B_d[1]),
+    .I2(B_d[0]) 
+);
+defparam a2_s4.INIT=8'h40;
+  LUT2 a2_s5 (
+    .F(a2_8),
+    .I0(B_d[1]),
+    .I1(A_d[3]) 
+);
+defparam a2_s5.INIT=4'h8;
+  LUT2 a2_s6 (
+    .F(a2_9),
+    .I0(A_d[2]),
+    .I1(B_d[3]) 
+);
+defparam a2_s6.INIT=4'h8;
+  LUT3 a2_s7 (
+    .F(a2_10),
+    .I0(B_d[2]),
+    .I1(a2_7),
+    .I2(A_d[3]) 
+);
+defparam a2_s7.INIT=8'h60;
+  LUT4 a2_s8 (
+    .F(a2_11),
+    .I0(A_d[0]),
+    .I1(A_d[2]),
+    .I2(A_d[1]),
+    .I3(A_d[3]) 
+);
+defparam a2_s8.INIT=16'h133F;
+  LUT3 a2_s9 (
+    .F(a2_13),
+    .I0(A_d[2]),
+    .I1(B_d[3]),
+    .I2(a2_10) 
+);
+defparam a2_s9.INIT=8'h78;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* compuerta_AND */
+module mux_4to1_4 (
+  LEDs_d_4_13,
+  LEDs_d_4_7,
+  LEDs_d_4_5,
+  LEDs_d_4_8,
+  Sel_d,
+  B_d,
+  A_d,
+  a2,
+  a2_3,
+  a2_5,
+  a2_6,
+  a2_7,
+  a2_8,
+  a2_9,
+  a2_10
+)
+;
+input LEDs_d_4_13;
+input LEDs_d_4_7;
+input LEDs_d_4_5;
+input LEDs_d_4_8;
+input [1:0] Sel_d;
+input [3:0] B_d;
+input [3:0] A_d;
+output a2;
+output a2_3;
+output a2_5;
+output a2_6;
+output a2_7;
+output a2_8;
+output a2_9;
+output a2_10;
+wire VCC;
+wire GND;
+  compuerta_AND and2_b (
+    .LEDs_d_4_13(LEDs_d_4_13),
+    .LEDs_d_4_7(LEDs_d_4_7),
+    .LEDs_d_4_5(LEDs_d_4_5),
+    .LEDs_d_4_8(LEDs_d_4_8),
+    .Sel_d(Sel_d[1:0]),
+    .B_d(B_d[3:0]),
+    .A_d(A_d[3:0]),
+    .a2(a2),
+    .a2_3(a2_3),
+    .a2_5(a2_5),
+    .a2_6(a2_6),
+    .a2_7(a2_7),
+    .a2_8(a2_8),
+    .a2_9(a2_9),
+    .a2_10(a2_10)
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* mux_4to1_4 */
+module compuerta_AND_0 (
+  a2_6,
+  a2_7,
+  a2_3,
+  a2_9,
+  a2_5,
+  a2_10,
+  A_d,
+  B_d,
+  a2,
+  a2_3_0,
+  a2_4,
+  a2_5_1
+)
+;
+input a2_6;
+input a2_7;
+input a2_3;
+input a2_9;
+input a2_5;
+input a2_10;
+input [3:3] A_d;
+input [3:2] B_d;
+output a2;
+output a2_3_0;
+output a2_4;
+output a2_5_1;
+wire VCC;
+wire GND;
+  LUT4 a2_s (
+    .F(a2),
+    .I0(a2_3_0),
+    .I1(a2_4),
+    .I2(a2_5_1),
+    .I3(a2_6) 
+);
+defparam a2_s.INIT=16'h9600;
+  LUT2 a2_s0 (
+    .F(a2_3_0),
+    .I0(A_d[3]),
+    .I1(B_d[3]) 
+);
+defparam a2_s0.INIT=4'h8;
+  LUT4 a2_s1 (
+    .F(a2_4),
+    .I0(B_d[2]),
+    .I1(a2_7),
+    .I2(a2_3),
+    .I3(A_d[3]) 
+);
+defparam a2_s1.INIT=16'h8E00;
+  LUT4 a2_s2 (
+    .F(a2_5_1),
+    .I0(a2_9),
+    .I1(a2_5),
+    .I2(a2_10),
+    .I3(a2_3) 
+);
+defparam a2_s2.INIT=16'hE88E;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* compuerta_AND_0 */
+module mux_4to1_5 (
+  a2_6,
+  a2_7,
+  a2_3,
+  a2_9,
+  a2_5,
+  a2_10,
+  A_d,
+  B_d,
+  a2,
+  a2_3_2,
+  a2_4,
+  a2_5_3
+)
+;
+input a2_6;
+input a2_7;
+input a2_3;
+input a2_9;
+input a2_5;
+input a2_10;
+input [3:3] A_d;
+input [3:2] B_d;
+output a2;
+output a2_3_2;
+output a2_4;
+output a2_5_3;
+wire VCC;
+wire GND;
+  compuerta_AND_0 and2_b (
+    .a2_6(a2_6),
+    .a2_7(a2_7),
+    .a2_3(a2_3),
+    .a2_9(a2_9),
+    .a2_5(a2_5),
+    .a2_10(a2_10),
+    .A_d(A_d[3]),
+    .B_d(B_d[3:2]),
+    .a2(a2),
+    .a2_3_0(a2_3_2),
+    .a2_4(a2_4),
+    .a2_5_1(a2_5_3)
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* mux_4to1_5 */
+module compuerta_AND_1 (
+  a2_3,
+  a2_5,
+  a2_4,
+  a2_6,
+  a2
+)
+;
+input a2_3;
+input a2_5;
+input a2_4;
+input a2_6;
+output a2;
+wire VCC;
+wire GND;
+  LUT4 a2_s (
+    .F(a2),
+    .I0(a2_3),
+    .I1(a2_5),
+    .I2(a2_4),
+    .I3(a2_6) 
+);
+defparam a2_s.INIT=16'hE800;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* compuerta_AND_1 */
+module mux_4to1_6 (
+  a2_3,
+  a2_5,
+  a2_4,
+  a2_6,
+  a2
+)
+;
+input a2_3;
+input a2_5;
+input a2_4;
+input a2_6;
+output a2;
+wire VCC;
+wire GND;
+  compuerta_AND_1 and2_b (
+    .a2_3(a2_3),
+    .a2_5(a2_5),
+    .a2_4(a2_4),
+    .a2_6(a2_6),
+    .a2(a2)
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* mux_4to1_6 */
+module top_module (
+  A,
+  B,
+  Sel,
+  LEDs
+)
+;
+input [3:0] A;
+input [3:0] B;
+input [1:0] Sel;
+output [7:0] LEDs;
+wire LEDs_d_2_5;
+wire LEDs_d_2_6;
+wire LEDs_d_2_7;
+wire LEDs_d_2_8;
+wire LEDs_d_3_5;
+wire LEDs_d_3_6;
+wire LEDs_d_3_7;
+wire LEDs_d_3_8;
+wire LEDs_d_4_5;
+wire LEDs_d_4_7;
+wire LEDs_d_4_8;
+wire LEDs_d_4_13;
+wire a2;
+wire a2_3;
+wire a2_5;
+wire a2_6;
+wire a2_7;
+wire a2_8;
+wire a2_9;
+wire a2_10;
+wire a2_4;
+wire a2_3_5;
+wire a2_4_6;
+wire a2_5_7;
+wire a2_11;
+wire [3:0] A_d;
+wire [3:0] B_d;
+wire [1:0] Sel_d;
+wire [0:0] LEDs_d;
+wire [1:1] LEDs_d_12;
+wire [2:2] LEDs_d_13;
+wire [3:3] LEDs_d_14;
+wire [4:4] LEDs_d_15;
+wire VCC;
+wire GND;
+  IBUF A_0_ibuf (
+    .O(A_d[0]),
+    .I(A[0]) 
+);
+  IBUF A_1_ibuf (
+    .O(A_d[1]),
+    .I(A[1]) 
+);
+  IBUF A_2_ibuf (
+    .O(A_d[2]),
+    .I(A[2]) 
+);
+  IBUF A_3_ibuf (
+    .O(A_d[3]),
+    .I(A[3]) 
+);
+  IBUF B_0_ibuf (
+    .O(B_d[0]),
+    .I(B[0]) 
+);
+  IBUF B_1_ibuf (
+    .O(B_d[1]),
+    .I(B[1]) 
+);
+  IBUF B_2_ibuf (
+    .O(B_d[2]),
+    .I(B[2]) 
+);
+  IBUF B_3_ibuf (
+    .O(B_d[3]),
+    .I(B[3]) 
+);
+  IBUF Sel_0_ibuf (
+    .O(Sel_d[0]),
+    .I(Sel[0]) 
+);
+  IBUF Sel_1_ibuf (
+    .O(Sel_d[1]),
+    .I(Sel[1]) 
+);
+  OBUF LEDs_0_obuf (
+    .O(LEDs[0]),
+    .I(LEDs_d[0]) 
+);
+  OBUF LEDs_1_obuf (
+    .O(LEDs[1]),
+    .I(LEDs_d_12[1]) 
+);
+  OBUF LEDs_2_obuf (
+    .O(LEDs[2]),
+    .I(LEDs_d_13[2]) 
+);
+  OBUF LEDs_3_obuf (
+    .O(LEDs[3]),
+    .I(LEDs_d_14[3]) 
+);
+  OBUF LEDs_4_obuf (
+    .O(LEDs[4]),
+    .I(LEDs_d_15[4]) 
+);
+  OBUF LEDs_5_obuf (
+    .O(LEDs[5]),
+    .I(a2) 
+);
+  OBUF LEDs_6_obuf (
+    .O(LEDs[6]),
+    .I(a2_4) 
+);
+  OBUF LEDs_7_obuf (
+    .O(LEDs[7]),
+    .I(a2_11) 
+);
+  mux_4to1 Mux0 (
+    .Sel_d(Sel_d[1:0]),
+    .A_d(A_d[0]),
+    .B_d(B_d[0]),
+    .LEDs_d(LEDs_d[0])
+);
+  mux_4to1_0 Mux1 (
+    .Sel_d(Sel_d[1:0]),
+    .A_d(A_d[1:0]),
+    .B_d(B_d[1:0]),
+    .LEDs_d(LEDs_d_12[1])
+);
+  mux_4to1_1 Mux2 (
+    .Sel_d(Sel_d[1:0]),
+    .B_d(B_d[2:0]),
+    .A_d(A_d[2:0]),
+    .LEDs_d_2_5(LEDs_d_2_5),
+    .LEDs_d_2_6(LEDs_d_2_6),
+    .LEDs_d_2_7(LEDs_d_2_7),
+    .LEDs_d_2_8(LEDs_d_2_8),
+    .LEDs_d(LEDs_d_13[2])
+);
+  mux_4to1_2 Mux3 (
+    .LEDs_d_2_5(LEDs_d_2_5),
+    .LEDs_d_2_6(LEDs_d_2_6),
+    .LEDs_d_2_7(LEDs_d_2_7),
+    .LEDs_d_2_8(LEDs_d_2_8),
+    .Sel_d(Sel_d[1:0]),
+    .A_d(A_d[3:0]),
+    .B_d(B_d[3:0]),
+    .LEDs_d_3_5(LEDs_d_3_5),
+    .LEDs_d_3_6(LEDs_d_3_6),
+    .LEDs_d_3_7(LEDs_d_3_7),
+    .LEDs_d_3_8(LEDs_d_3_8),
+    .LEDs_d(LEDs_d_14[3])
+);
+  mux_4to1_3 Mux4 (
+    .LEDs_d_3_5(LEDs_d_3_5),
+    .LEDs_d_3_6(LEDs_d_3_6),
+    .a2_7(a2_7),
+    .a2_8(a2_8),
+    .LEDs_d_3_7(LEDs_d_3_7),
+    .LEDs_d_3_8(LEDs_d_3_8),
+    .Sel_d(Sel_d[1:0]),
+    .A_d(A_d[3:0]),
+    .B_d(B_d[3:2]),
+    .LEDs_d_4_5(LEDs_d_4_5),
+    .LEDs_d_4_7(LEDs_d_4_7),
+    .LEDs_d_4_8(LEDs_d_4_8),
+    .LEDs_d_4_13(LEDs_d_4_13),
+    .LEDs_d(LEDs_d_15[4])
+);
+  mux_4to1_4 Mux5 (
+    .LEDs_d_4_13(LEDs_d_4_13),
+    .LEDs_d_4_7(LEDs_d_4_7),
+    .LEDs_d_4_5(LEDs_d_4_5),
+    .LEDs_d_4_8(LEDs_d_4_8),
+    .Sel_d(Sel_d[1:0]),
+    .B_d(B_d[3:0]),
+    .A_d(A_d[3:0]),
+    .a2(a2),
+    .a2_3(a2_3),
+    .a2_5(a2_5),
+    .a2_6(a2_6),
+    .a2_7(a2_7),
+    .a2_8(a2_8),
+    .a2_9(a2_9),
+    .a2_10(a2_10)
+);
+  mux_4to1_5 Mux6 (
+    .a2_6(a2_6),
+    .a2_7(a2_7),
+    .a2_3(a2_3),
+    .a2_9(a2_9),
+    .a2_5(a2_5),
+    .a2_10(a2_10),
+    .A_d(A_d[3]),
+    .B_d(B_d[3:2]),
+    .a2(a2_4),
+    .a2_3_2(a2_3_5),
+    .a2_4(a2_4_6),
+    .a2_5_3(a2_5_7)
+);
+  mux_4to1_6 Mux7 (
+    .a2_3(a2_3_5),
+    .a2_5(a2_5_7),
+    .a2_4(a2_4_6),
+    .a2_6(a2_6),
+    .a2(a2_11)
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* top_module */
