@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="lavadora_top" Register="20" Lut="81" T_Register="149(20)" T_Alu="107(0)" T_Lut="130(81)">
+ <SubModule name="d0" Register="23" Alu="19" Lut="8" T_Register="23(23)" T_Alu="19(19)" T_Lut="8(8)"/>
+ <SubModule name="d1" Register="23" Alu="19" Lut="8" T_Register="23(23)" T_Alu="19(19)" T_Lut="8(8)"/>
+ <SubModule name="d2" Register="23" Alu="19" Lut="8" T_Register="23(23)" T_Alu="19(19)" T_Lut="8(8)"/>
+ <SubModule name="d3" Register="23" Alu="19" Lut="8" T_Register="23(23)" T_Alu="19(19)" T_Lut="8(8)"/>
+ <SubModule name="p0" Register="1" T_Register="1(1)"/>
+ <SubModule name="p1" Register="1" Lut="1" T_Register="1(1)" T_Lut="1(1)"/>
+ <SubModule name="p2" Register="1" T_Register="1(1)"/>
+ <SubModule name="p3" Register="1" T_Register="1(1)"/>
+ <SubModule name="u_tick" Register="33" Alu="31" Lut="16" T_Register="33(33)" T_Alu="31(31)" T_Lut="16(16)"/>
+</Module>

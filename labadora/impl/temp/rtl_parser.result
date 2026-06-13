@@ -1,0 +1,92 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/fliflo.v",
+  "InstLine" : 1,
+  "InstName" : "toggle_ff",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/fliflo.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "toggle_ff"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/main module.v",
+  "InstLine" : 1,
+  "InstName" : "lavadora_top",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/main module.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "lavadora_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/main module.v",
+    "InstLine" : 27,
+    "InstName" : "d0",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/debounse.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "debounce"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/main module.v",
+    "InstLine" : 28,
+    "InstName" : "d1",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/debounse.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "debounce"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/main module.v",
+    "InstLine" : 29,
+    "InstName" : "d2",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/debounse.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "debounce"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/main module.v",
+    "InstLine" : 30,
+    "InstName" : "d3",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/debounse.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "debounce"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/main module.v",
+    "InstLine" : 41,
+    "InstName" : "p0",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/one pulse.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "one_pulse"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/main module.v",
+    "InstLine" : 42,
+    "InstName" : "p1",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/one pulse.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "one_pulse"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/main module.v",
+    "InstLine" : 43,
+    "InstName" : "p2",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/one pulse.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "one_pulse"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/main module.v",
+    "InstLine" : 44,
+    "InstName" : "p3",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/one pulse.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "one_pulse"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/main module.v",
+    "InstLine" : 54,
+    "InstName" : "u_tick",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/labadora/src/divisor tik.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sec_tick"
+   }
+  ]
+ }
+]
