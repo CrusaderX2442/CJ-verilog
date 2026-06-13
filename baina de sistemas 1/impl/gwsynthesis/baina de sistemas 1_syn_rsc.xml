@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_contadores" T_Register="119(0)" T_Alu="85(0)" T_Lut="66(0)">
+ <SubModule name="div" Register="27" Alu="25" Lut="10" T_Register="27(27)" T_Alu="25(25)" T_Lut="10(10)"/>
+ <SubModule name="d1" Register="25" Alu="20" Lut="11" T_Register="25(25)" T_Alu="20(20)" T_Lut="11(11)"/>
+ <SubModule name="d2" Register="25" Alu="20" Lut="11" T_Register="25(25)" T_Alu="20(20)" T_Lut="11(11)"/>
+ <SubModule name="d3" Register="25" Alu="20" Lut="11" T_Register="25(25)" T_Alu="20(20)" T_Lut="11(11)"/>
+ <SubModule name="c1" Register="5" Lut="7" T_Register="5(5)" T_Lut="7(7)"/>
+ <SubModule name="c2" Register="5" Lut="6" T_Register="5(5)" T_Lut="6(6)"/>
+ <SubModule name="c3" Register="7" Lut="10" T_Register="7(7)" T_Lut="10(10)"/>
+</Module>

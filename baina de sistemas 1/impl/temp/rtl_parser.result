@@ -1,0 +1,68 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top_contadores",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top_contadores",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/top.v",
+    "InstLine" : 6,
+    "InstName" : "div",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/WEB OS.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "divisor_frecuencia"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/top.v",
+    "InstLine" : 7,
+    "InstName" : "d1",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/ping a.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "debouncer"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/top.v",
+    "InstLine" : 8,
+    "InstName" : "d2",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/ping a.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "debouncer"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/top.v",
+    "InstLine" : 9,
+    "InstName" : "d3",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/ping a.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "debouncer"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/top.v",
+    "InstLine" : 10,
+    "InstName" : "c1",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/binario.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "contador_binario"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/top.v",
+    "InstLine" : 11,
+    "InstName" : "c2",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/bcd.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "contador_bcd"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/top.v",
+    "InstLine" : 12,
+    "InstName" : "c3",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/baina de sistemas 1/src/hexagesima.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "contador_sexagesimal"
+   }
+  ]
+ }
+]
