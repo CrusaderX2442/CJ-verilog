@@ -1,0 +1,37 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\s.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\mr.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\r.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\m.v'
+Compiling module 'main'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\m.v":1)
+Compiling module 'suma_4bit'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\s.v":1)
+Compiling module 'resta_4bit'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\r.v":1)
+Compiling module 'multiplicacion_4bit'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\mr.v":1)
+NOTE  (EX0101) : Current top module is "main"
+WARN  (EX0211) : The output port "P[7]" of module "multiplicacion_4bit" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\mr.v":4)
+WARN  (EX0211) : The output port "P[6]" of module "multiplicacion_4bit" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\mr.v":4)
+WARN  (EX0211) : The output port "P[5]" of module "multiplicacion_4bit" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\mr.v":4)
+WARN  (EX0211) : The output port "P[4]" of module "multiplicacion_4bit" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\mr.v":4)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "multiplicacion_4bit" instantiated to "inst_mult" is swept in optimizing("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\m.v":15)
+WARN  (NL0002) : The module "resta_4bit" instantiated to "inst_resta" is swept in optimizing("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\m.v":14)
+WARN  (NL0002) : The module "suma_4bit" instantiated to "inst_suma" is swept in optimizing("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\m.v":13)
+[95%] Generate netlist file "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\impl\gwsynthesis\suma.vg" completed
+[100%] Generate report file "C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\impl\gwsynthesis\suma_syn.rpt.html" completed
+GowinSynthesis finish

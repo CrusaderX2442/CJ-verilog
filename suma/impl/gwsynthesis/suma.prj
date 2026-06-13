@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5A-25A" package="LQFP100" speed="1" partNumber="GW5A-EV25LQ100C1/I0"/>
+    <FileList>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\s.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\mr.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\r.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\src\m.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\suma\impl\gwsynthesis\suma.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

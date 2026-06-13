@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/suma/src/m.v",
+  "InstLine" : 1,
+  "InstName" : "main",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/suma/src/m.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "main",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/suma/src/m.v",
+    "InstLine" : 13,
+    "InstName" : "inst_suma",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/suma/src/s.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "suma_4bit"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/suma/src/m.v",
+    "InstLine" : 14,
+    "InstName" : "inst_resta",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/suma/src/r.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "resta_4bit"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/suma/src/m.v",
+    "InstLine" : 15,
+    "InstName" : "inst_mult",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/suma/src/mr.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "multiplicacion_4bit"
+   }
+  ]
+ }
+]
