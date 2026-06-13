@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sistemas/src/main.v",
+  "InstLine" : 2,
+  "InstName" : "access_fsm_ic",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sistemas/src/main.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "access_fsm_ic",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sistemas/src/main.v",
+    "InstLine" : 39,
+    "InstName" : "open_timer",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sistemas/src/timer oppen.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "timer_open"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sistemas/src/main.v",
+    "InstLine" : 49,
+    "InstName" : "lock_timer",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/sistemas/src/timer lock.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "timer_lock"
+   }
+  ]
+ }
+]
