@@ -1,0 +1,65 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Decodificador7.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Funcion 11.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Funcion 2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Funcion 9.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Mulplexor4x1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/binary5.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/funcion 13.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/funcion 5.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/funcion 8.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/restadora.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/sumadora.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

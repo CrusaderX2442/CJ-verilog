@@ -1,0 +1,388 @@
+[
+ {
+  "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+  "InstLine" : 1,
+  "InstName" : "central",
+  "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "central",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 16,
+    "InstName" : "inst_op2",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Funcion 2.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "operation_block_2",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Funcion 2.v",
+      "InstLine" : 35,
+      "InstName" : "INST_SUB",
+      "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/restadora.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "restadora",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/restadora.v",
+        "InstLine" : 16,
+        "InstName" : "ADDER_SUB",
+        "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/sumadora.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "sumadora"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 31,
+    "InstName" : "inst_op9",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Funcion 9.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "operation_block_9",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Funcion 9.v",
+      "InstLine" : 30,
+      "InstName" : "INST_ADD_H",
+      "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/sumadora.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "sumadora"
+     },
+     {
+      "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Funcion 9.v",
+      "InstLine" : 37,
+      "InstName" : "INST_ADD_L",
+      "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/sumadora.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "sumadora"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 46,
+    "InstName" : "inst_op11",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Funcion 11.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "operation_block_11",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Funcion 11.v",
+      "InstLine" : 44,
+      "InstName" : "INST_SUB",
+      "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/restadora.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "restadora",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/restadora.v",
+        "InstLine" : 16,
+        "InstName" : "ADDER_SUB",
+        "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/sumadora.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "sumadora"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 61,
+    "InstName" : "inst_op13",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/funcion 13.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "operation_block_13",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/funcion 13.v",
+      "InstLine" : 36,
+      "InstName" : "INST_ADD_H",
+      "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/sumadora.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "sumadora"
+     },
+     {
+      "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/funcion 13.v",
+      "InstLine" : 51,
+      "InstName" : "INST_ADD_L",
+      "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/sumadora.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "sumadora"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 76,
+    "InstName" : "inst_op8",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/funcion 8.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "operation_block_8",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/funcion 8.v",
+      "InstLine" : 36,
+      "InstName" : "INST_ADD_H",
+      "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/sumadora.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "sumadora"
+     },
+     {
+      "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/funcion 8.v",
+      "InstLine" : 51,
+      "InstName" : "INST_ADD_L",
+      "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/sumadora.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "sumadora"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 91,
+    "InstName" : "inst_op5",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/funcion 5.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "operation_block_5",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/funcion 5.v",
+      "InstLine" : 40,
+      "InstName" : "INST_ADD_H",
+      "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/sumadora.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "sumadora"
+     },
+     {
+      "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/funcion 5.v",
+      "InstLine" : 60,
+      "InstName" : "INST_ADD_L",
+      "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/sumadora.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "sumadora"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 107,
+    "InstName" : "MX_LOG0H",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 108,
+    "InstName" : "MX_LOG1H",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 109,
+    "InstName" : "MX_LOG2H",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 110,
+    "InstName" : "MX_LOG3H",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 113,
+    "InstName" : "MX_LOG0L",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 114,
+    "InstName" : "MX_LOG1L",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 115,
+    "InstName" : "MX_LOG2L",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 116,
+    "InstName" : "MX_LOG3L",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 119,
+    "InstName" : "MX_ARI0H",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 120,
+    "InstName" : "MX_ARI1H",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 121,
+    "InstName" : "MX_ARI2H",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 122,
+    "InstName" : "MX_ARI3H",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 123,
+    "InstName" : "MX_ARI4H",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 126,
+    "InstName" : "MX_ARI0L",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 127,
+    "InstName" : "MX_ARI1L",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 128,
+    "InstName" : "MX_ARI2L",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 129,
+    "InstName" : "MX_ARI3L",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 130,
+    "InstName" : "MX_ARI4L",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Multiplexor8x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_8x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 133,
+    "InstName" : "MX_OUT0",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Mulplexor4x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_4x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 134,
+    "InstName" : "MX_OUT1",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Mulplexor4x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_4x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 135,
+    "InstName" : "MX_OUT2",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Mulplexor4x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_4x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 136,
+    "InstName" : "MX_OUT3",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Mulplexor4x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_4x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 137,
+    "InstName" : "MX_OUT4",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Mulplexor4x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_4x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 138,
+    "InstName" : "MX_OUTN",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Mulplexor4x1.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "selector_4x1"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 145,
+    "InstName" : "CONV_BCD",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/binary5.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "binary5_to_bcd"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 150,
+    "InstName" : "DISP_TENS",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Decodificador7.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "display_7seg"
+   },
+   {
+    "InstFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Principal.v",
+    "InstLine" : 155,
+    "InstName" : "DISP_UNITS",
+    "ModuleFile" : "C:/Users/MAKIM/Downloads/ALU ALam/ALU ALam/src/Decodificador7.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "display_7seg"
+   }
+  ]
+ }
+]

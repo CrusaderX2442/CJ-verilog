@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="central" T_Lut="116(0)">
+ <SubModule name="MX_LOG0H" Lut="6" T_Lut="6(6)"/>
+ <SubModule name="MX_LOG1H" Lut="9" T_Lut="9(9)"/>
+ <SubModule name="MX_LOG2H" Lut="14" T_Lut="14(14)"/>
+ <SubModule name="MX_LOG3H" Lut="15" T_Lut="15(15)"/>
+ <SubModule name="MX_OUT0" Lut="3" T_Lut="3(3)"/>
+ <SubModule name="MX_OUT1" Lut="8" T_Lut="8(8)"/>
+ <SubModule name="MX_OUT2" Lut="8" T_Lut="8(8)"/>
+ <SubModule name="MX_OUT3" Lut="8" T_Lut="8(8)"/>
+ <SubModule name="MX_OUT4" Lut="26" T_Lut="26(26)"/>
+ <SubModule name="DISP_TENS" Lut="5" T_Lut="5(5)"/>
+ <SubModule name="DISP_UNITS" Lut="14" T_Lut="14(14)"/>
+</Module>

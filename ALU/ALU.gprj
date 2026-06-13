@@ -1,0 +1,23 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NC1/I0">gw5a25a-002</Device>
+    <FileList>
+        <File path="src/Decodificador7.v" type="file.verilog" enable="1"/>
+        <File path="src/Funcion 11.v" type="file.verilog" enable="1"/>
+        <File path="src/Funcion 2.v" type="file.verilog" enable="1"/>
+        <File path="src/Funcion 9.v" type="file.verilog" enable="1"/>
+        <File path="src/Mulplexor4x1.v" type="file.verilog" enable="1"/>
+        <File path="src/Multiplexor8x1.v" type="file.verilog" enable="1"/>
+        <File path="src/Principal.v" type="file.verilog" enable="1"/>
+        <File path="src/binary5.v" type="file.verilog" enable="1"/>
+        <File path="src/funcion 13.v" type="file.verilog" enable="1"/>
+        <File path="src/funcion 5.v" type="file.verilog" enable="1"/>
+        <File path="src/funcion 8.v" type="file.verilog" enable="1"/>
+        <File path="src/restadora.v" type="file.verilog" enable="1"/>
+        <File path="src/sumadora.v" type="file.verilog" enable="1"/>
+        <File path="src/ALU ALam.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

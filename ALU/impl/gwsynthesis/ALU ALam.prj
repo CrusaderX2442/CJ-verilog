@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5A-25A" package="MBGA121N" speed="1" partNumber="GW5A-LV25MG121NC1/I0"/>
+    <FileList>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Decodificador7.v" type="verilog"/>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 11.v" type="verilog"/>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 2.v" type="verilog"/>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 9.v" type="verilog"/>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Mulplexor4x1.v" type="verilog"/>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Multiplexor8x1.v" type="verilog"/>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v" type="verilog"/>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\binary5.v" type="verilog"/>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 13.v" type="verilog"/>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 5.v" type="verilog"/>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 8.v" type="verilog"/>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\restadora.v" type="verilog"/>
+        <File path="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\sumadora.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\impl\gwsynthesis\ALU ALam.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

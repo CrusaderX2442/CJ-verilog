@@ -1,0 +1,82 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Decodificador7.v'
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 11.v'
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 2.v'
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 9.v'
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Mulplexor4x1.v'
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Multiplexor8x1.v'
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v'
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\binary5.v'
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 13.v'
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 5.v'
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 8.v'
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\restadora.v'
+Analyzing Verilog file 'C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\sumadora.v'
+Compiling module 'central'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":1)
+Compiling module 'operation_block_2'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 2.v":2)
+Compiling module 'restadora'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\restadora.v":3)
+Compiling module 'sumadora'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\sumadora.v":3)
+Compiling module 'operation_block_9'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 9.v":5)
+Compiling module 'operation_block_11'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 11.v":3)
+Compiling module 'operation_block_13'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 13.v":3)
+Compiling module 'operation_block_8'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 8.v":3)
+Compiling module 'operation_block_5'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 5.v":2)
+Compiling module 'selector_8x1'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Multiplexor8x1.v":3)
+Compiling module 'selector_4x1'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Mulplexor4x1.v":3)
+Compiling module 'binary5_to_bcd'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\binary5.v":3)
+Compiling module 'display_7seg'("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Decodificador7.v":3)
+NOTE  (EX0101) : Current top module is "central"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "binary5_to_bcd" instantiated to "CONV_BCD" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":148)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_ARI0H" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":119)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_ARI0L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":126)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_ARI1H" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":120)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_ARI1L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":127)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_ARI2H" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":121)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_ARI2L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":128)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_ARI3H" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":122)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_ARI3L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":129)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_ARI4H" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":123)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_ARI4L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":130)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_LOG0L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":113)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_LOG1L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":114)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_LOG2L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":115)
+WARN  (NL0002) : The module "selector_8x1" instantiated to "MX_LOG3L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":116)
+WARN  (NL0002) : The module "selector_4x1" instantiated to "MX_OUTN" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":138)
+WARN  (NL0002) : The module "operation_block_11" instantiated to "inst_op11" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":53)
+WARN  (NL0002) : The module "restadora" instantiated to "INST_SUB" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 11.v":48)
+WARN  (NL0002) : The module "sumadora" instantiated to "ADDER_SUB" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\restadora.v":22)
+WARN  (NL0002) : The module "operation_block_13" instantiated to "inst_op13" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":68)
+WARN  (NL0002) : The module "sumadora" instantiated to "INST_ADD_H" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 13.v":40)
+WARN  (NL0002) : The module "sumadora" instantiated to "INST_ADD_L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 13.v":55)
+WARN  (NL0002) : The module "operation_block_2" instantiated to "inst_op2" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":23)
+WARN  (NL0002) : The module "restadora" instantiated to "INST_SUB" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 2.v":39)
+WARN  (NL0002) : The module "sumadora" instantiated to "ADDER_SUB" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\restadora.v":22)
+WARN  (NL0002) : The module "operation_block_5" instantiated to "inst_op5" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":98)
+WARN  (NL0002) : The module "sumadora" instantiated to "INST_ADD_H" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 5.v":44)
+WARN  (NL0002) : The module "sumadora" instantiated to "INST_ADD_L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 5.v":64)
+WARN  (NL0002) : The module "operation_block_8" instantiated to "inst_op8" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":83)
+WARN  (NL0002) : The module "sumadora" instantiated to "INST_ADD_H" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 8.v":40)
+WARN  (NL0002) : The module "sumadora" instantiated to "INST_ADD_L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\funcion 8.v":55)
+WARN  (NL0002) : The module "operation_block_9" instantiated to "inst_op9" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Principal.v":38)
+WARN  (NL0002) : The module "sumadora" instantiated to "INST_ADD_H" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 9.v":34)
+WARN  (NL0002) : The module "sumadora" instantiated to "INST_ADD_L" is swept in optimizing("C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\src\Funcion 9.v":41)
+[95%] Generate netlist file "C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\impl\gwsynthesis\ALU ALam.vg" completed
+[100%] Generate report file "C:\Users\MAKIM\Downloads\ALU ALam\ALU ALam\impl\gwsynthesis\ALU ALam_syn.rpt.html" completed
+GowinSynthesis finish
